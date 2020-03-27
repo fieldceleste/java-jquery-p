@@ -54,3 +54,6 @@ hr {
 .form-control {
   width:200px;
 }
+.display{
+  display: none;
+}
