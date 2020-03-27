@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(206, 229, 143);
+  font-family: Helvetica;
+  text-align: justify;
+}
+#header {
+  margin-top: 0;
+  border: 2px solid black;
+  padding: 10px;
+  height: 300px;
+  width:850px;
+  background: rgb(183, 233, 102);
+  background-image: url("https://image.freepik.com/free-vector/web-design-background_1300-39.jpg");
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#main {
+  width: 90%;
+  max-width: 900px;
+  border: 1px rgb(129, 65, 129);
+  margin: auto;
+  padding: 10px;
+  background-color: rgb(206, 229, 143);
+  border-radius: 10px;
+}
+.container {
+  background-color: rgb(138, 138, 138);
+}
