@@ -19,6 +19,13 @@ $(document).ready(function () {
       } else if (result <= 16) {
           $("#answer").text("Ruby,so you can build web applicaions, desktop games, and mobile apps!");
       }
+
+     
+   });
+
+
+
+
       event.preventDefault();
   });
 });

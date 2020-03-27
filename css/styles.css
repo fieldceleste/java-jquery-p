@@ -39,6 +39,10 @@ h2 {
 label {
   display: block;
 }
+.submit{
+  width:20%;
+  height:75px;
+}
 hr {
   display: block;
   height: 1px;
@@ -49,10 +53,4 @@ hr {
 }
 .form-control {
   width:200px;
-}
-#hide{
-  display: none;
-}
-#answer {
-  display:none;
 }
