@@ -6,9 +6,9 @@ body {
 #header {
   margin-top: 0;
   border: 2px solid black;
+  border-radius: 25px;
   padding: 10px;
   height: 300px;
-  width:850px;
   background: rgb(183, 233, 102);
   background-image: url("https://image.freepik.com/free-vector/web-design-background_1300-39.jpg");
   color: rgb(255, 255, 255);
