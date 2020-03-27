@@ -50,3 +50,9 @@ hr {
 .form-control {
   width:200px;
 }
+#hide{
+  display: none;
+}
+#answer {
+  display:none;
+}

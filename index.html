@@ -17,7 +17,7 @@
       </div>
       <!--First Question-->
       <form id="questions">
-        <h2>Enter Name</h2>
+        <h2>Enter your Name</h2>
         <div class="form-group row">
           <div class="col-xs-4">
             <input id="name" class="form-control" type="text">
@@ -40,16 +40,19 @@
         </select>
         <!--Fourth Question-->
         <h2>What do you want to do as a programmer?</h2>
-        <label for="programmer-ruby"><input type="radio" name="programmer" value="3" id="programmer-ruby" />Design Websites-visually</label>
-        <label for="programmer-c#"><input type="radio" name="programmer" value="1" id="programmer-c#" />Design buisness applications</label>
-        <label for="programmer-swift"><input type="radio" name="programmer" value="2" id="programmer-swift" />Build mobile applications</label>
+        <label for="programmer-ruby"><input type="radio" name="programmer" value="3" id="programmer-ruby" /> Design
+          Websites-visually</label>
+        <label for="programmer-c#"><input type="radio" name="programmer" value="1" id="programmer-c#" /> Design buisness
+          applications</label>
+        <label for="programmer-swift"><input type="radio" name="programmer" value="2" id="programmer-swift" /> Build
+          mobile applications</label>
 
         <!--Fifith Question-->
         <h2>What kind of sites do you enjoy?</h2>
-        <label for="sites-ruby"><input type="radio" name="sites" value="3" id="sites-ruby" />Groupon</label>
-        <label for="sites-c#"><input type="radio" name="sites" value="1" id="sites-c#" />Ancestry</label>
-        <label for="sites-swift"><input type="radio" name="sites" value="2" id="sites-swift" />Linkedin app</label>
-        
+        <label for="sites-ruby"><input type="radio" name="sites" value="3" id="sites-ruby" /> Groupon</label>
+        <label for="sites-c#"><input type="radio" name="sites" value="1" id="sites-c#" /> Ancestry</label>
+        <label for="sites-swift"><input type="radio" name="sites" value="2" id="sites-swift" /> Linkedin app</label>
+
         <!--Sixth Question-->
         <h2>How much programming expereince do you have?</h2>
         <select class="form-control" id="experience">
@@ -57,9 +60,18 @@
           <option value="2">A little I guess</option>
           <option value="1">TONS!</option>
         </select>
-
-
-
-
-
+        <!--Submit button-->
+        <br>
+        <button type="submit" value="Submit">Get your Results!</button>
+        </br>
       </form>
+      <!--Results-->
+      <br>
+      <p><strong><span class="name"></span><span id="hide">, the programming language you should use is</span><span id="answer">__</span></strong></p>
+      <p id="answer2"></p>
+      </br>
+     </div>
+  </div>
+</body>
+
+</html>
