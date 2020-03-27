@@ -2,6 +2,7 @@ body {
   background-color:rgb(138, 138, 138);;
   font-family: Helvetica;
   text-align: justify;
+  
 }
 #header {
   margin-top: 0;
@@ -12,7 +13,7 @@ body {
   background: rgb(183, 233, 102);
   background-image: url("https://image.freepik.com/free-vector/web-design-background_1300-39.jpg");
   color: rgb(255, 255, 255);
-  font-size: 50px;
+  font-size: 40px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -33,4 +34,19 @@ h2 {
   clear: both;
   padding-top: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+label {
+  display: block;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid rgb(31, 25, 25);
+  margin: 1em 0;
+  padding: 0;
+}
+.form-control {
+  width:200px;
 }
