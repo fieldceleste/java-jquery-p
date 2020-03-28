@@ -1,5 +1,6 @@
 $(document).ready(function () {
   $("#questions").submit(function () {
+    
       var nameInput = $("input#name").val();
       var desktop = parseInt($("#desktop").val());
       var animal = parseInt($("#animal").val());
@@ -7,9 +8,8 @@ $(document).ready(function () {
       var sites = parseInt($('input[name = "sites"]:checked').val());
       var experience = parseInt($("#experience").val());
 
-      var result = desktop + animal + programmer + sites + experience;
-
       
+      var result = desktop + animal + programmer + sites + experience;
 
       $(".name").text(nameInput);
       if (result <= 5) {
@@ -19,6 +19,8 @@ $(document).ready(function () {
       } else if (result <= 15) {
           $("#answer1").text("Ruby,so you can build web applicaions, desktop games, and mobile apps!");
       }
+      
+
       event.preventDefault();
   });
 });
